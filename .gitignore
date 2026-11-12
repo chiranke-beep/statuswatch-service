@@ -1,0 +1,11 @@
+# Ballerina build cache and binaries
+target/
+.ballerina/
+Dependencies.toml
+
+# Editor & OS files
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
