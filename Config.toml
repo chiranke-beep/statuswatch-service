@@ -1,0 +1,6 @@
+port = 9090
+requestTimeoutSeconds = 5.0
+
+githubStatusUrl = "https://www.githubstatus.com"
+cloudflareStatusUrl = "https://www.cloudflarestatus.com"
+npmStatusUrl = "https://status.npmjs.org"
