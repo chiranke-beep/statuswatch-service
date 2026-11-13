@@ -14,13 +14,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Ballerina
+      - name: Run Tests
         uses: ballerina-platform/ballerina-action@master
         with:
-          version: 2201.14.0
-
-      - name: Run Tests
-        run: bal test
+          args: test
 
       - name: Build Package
-        run: bal pack
+        uses: ballerina-platform/ballerina-action@master
+        with:
+          args: pack
